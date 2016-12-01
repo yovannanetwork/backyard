@@ -1,1 +1,112 @@
 /* Tu CSS va aqui */
+
+.container{
+    margin: 0 auto;
+    width: 700px;
+}
+
+/*-------header-------*/
+
+.imagen, .lista{
+    display: inline-block;
+}
+.imagen{
+    width: 60%;
+}
+.lista{
+    width: 40%;
+    float: right;
+}
+.lista ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+.lista ul li a{
+    color: #4e4c4c;
+    text-decoration: none;
+}
+
+
+/*--------section-----*/
+section{
+    background: #4e4c4c;
+    color: white;
+    padding: 10px
+
+}
+
+.texto{
+    width: 60%;
+    
+}
+.caja{
+    width: 40%;
+}
+.texto, .caja{
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.clearfix{
+    display: table;
+}
+.clearfix:after{
+    content: " ";
+}
+.col-8 h1{
+    font-size: 40px;
+}
+
+/*-----formulario---*/
+.formulario{
+    background: #808080;
+    padding: 15px;
+    border-radius: 10%;
+    text-align: center;
+}
+.formulario input{
+    padding:5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.formulario button{
+    background: #28c4fd; 
+    padding: 5px 0;
+    width: 100%;
+}
+/*-----footer------*/ 
+footer{
+    color:#808080;
+}
+
+@media(max-width:700px) {
+    .container {
+        width: 100%;
+    }
+    .col-8, .col-4{
+        width: 100%;
+    }
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
